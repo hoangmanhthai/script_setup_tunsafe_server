@@ -85,6 +85,6 @@ echo "✅ WireGuard server đã sẵn sàng!"
 echo "🌐 IP Server: $SERVER_PUBLIC_IP"
 echo "🔑 Public Key: $SERVER_PUB_KEY"
 echo "📄 File cấu hình client: $(pwd)/${CLIENT_NAME}.conf"
-echo "📱 Quét mã QR để kết nối:"
+# echo "📱 Quét mã QR để kết nối:"
 # qrencode -t ansiutf8 < ${CLIENT_NAME}.conf
 cat ${CLIENT_NAME}.conf
